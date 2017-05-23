@@ -1,0 +1,393 @@
+	
+		.twi{
+			margin-right: 3%;
+			
+		}
+		
+		.red1 p{
+			width: 43%;
+			margin-top: 13%;
+			margin-left: 55%;
+			position: absolute;
+			color: white;
+			font-size:2em;
+			font-family: 'Arimo', sans-serif;
+			font-weight:400;
+			 line-height: 115%;
+		
+		}
+		
+		.red2 p{
+			width: 43%;
+			margin-top: 14%;
+			margin-left: 10%;
+			position: absolute;
+			color: white;
+			text-align: left !important;
+			font-size:2em;
+			font-family: 'Arimo', sans-serif;
+			font-weight:400;
+			 line-height: 115%;
+		
+		}
+		
+		.red3 p{
+			width: 43%;
+			margin-top: 45%;
+			margin-left: 55%;
+			position: absolute;
+			color: white;
+			text-align: left !important;
+			font-size:2em;
+			font-family: 'Arimo', sans-serif;
+			font-weight:400;
+			 line-height: 115%;
+		
+		}
+		
+		.btn-green{
+			background-color: #D80909;
+		}
+		
+		.btn-green:hover{
+			color: #c41618;
+			background-color: white;
+			border: 1px solid #D80909;
+		}
+		
+		.red{
+			color: #D80909;
+			
+		}
+		
+	.fh5co-counters {
+  padding: 7em 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+.fh5co-counters .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background: rgba(0, 0, 0, 0.6);
+}
+.fh5co-counters .counter-wrap {
+  border: 1px solid red !important;
+}
+.fh5co-counters .fh5co-counter {
+  font-size: 44px;
+  display: block;
+  color: white;
+  font-family: 'Arimo', sans-serif;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: .1em;
+}
+.fh5co-counters .fh5co-counter-label {
+	margin-top: 5%;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.3em;
+  margin-bottom: 2em;
+	font-weight: 700;
+  display: block;
+  font-family: 'Arimo', sans-serif;
+}
+.fh5co-counters .icon i {
+  color: #fff;
+	margin-bottom: 10%;
+}
+
+
+		
+.IconosContact{
+			font-size: 1.2em;
+			
+		}
+		
+.afili{
+			margin-top: 8%;
+		}
+
+		.margintop-60{
+			margin-top: 5%;
+		}
+#facilities h2{
+			color: white;
+		}
+		
+		#testimonial h2{
+			color: white;
+		}
+		
+
+		.cta-text2 h3 {
+	color: black;
+	font-weight:600;
+	line-height:1.1em;
+	margin-bottom: 20px;
+}
+
+.fh5co-counters .cta-text2 h3{
+	color: white;
+}
+
+
+		.linear{
+			border-right: medium dashed black;
+		}
+		
+#fh5co-counter {
+  padding: 7em 0;
+  clear: both;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  #fh5co-counter {
+    padding: 3em 0;
+  }
+}
+	.top-area a {
+    color: white;
+				}
+
+
+/* =======================
+Servicios - Iconos Servicio rojos
+========================== */
+
+		.service-desc p{
+			line-height: 160%;
+			font-size: .9em;
+		}
+		
+		.white{
+			color: white;
+			
+		}
+		.IconTop{
+			margin-top: 15%;
+		}
+
+/* =======================
+Servicios - Iconos Plan de Servicio
+========================== */
+
+	.fh5co-counters2 {
+  padding: 2em 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+.fh5co-counters2 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.marTop{
+	margin-top: 1%;
+}
+
+.fh5co-counters2 h3{
+	color: white;
+}
+
+/* =======================
+Servicios - Tooltip
+========================== */
+
+ .test + .tooltip > .tooltip-inner {
+      background-color: #333; 
+      color: #FFFFFF; 
+      border: 1px solid red; 
+      padding: 15px;
+      font-size: 18px;
+  }
+		
+	  /* Tooltip on bottom */
+  .test + .tooltip.bottom > .tooltip-arrow {
+      border-bottom: 5px solid red;
+  }
+
+
+/* =======================
+Index -- Contact Icon
+========================== */
+.service-icon2{
+	margin: 5px 5px 0px 0px;
+	float: left;
+}
+
+.spa{
+	margin-left: 9%;
+}
+
+
+.separar li{
+		padding-top: 10px;
+	}
+
+
+/* =======================
+Apps Moviles - boton formulario hidden
+========================== */
+.dist{
+				margin-left: 20%;
+			}
+			
+			.lr {
+				margin-top: 0px;
+				background-color: #D80909;
+				
+			}
+			
+.ll{
+	display: block;
+	color: white;
+cursor: pointer;
+padding-top: .7%;
+padding-bottom:.7%;
+text-align: right;
+padding-right: 2%;
+}
+			/*
+			.ll:hover { 
+				background-color: white;
+   		color: #D80909;
+				border: 1px solid #D80909;
+				}*/
+
+
+
+/* =======================
+PlataformaGPS -- Portfolio
+========================== */
+
+
+
+
+/*Portfolio*/
+#portfolio {
+	margin-top: 100px;
+}
+
+#portfolio .portfolio-heading {
+	text-align: center;
+}
+
+#portfolio .portfolio-heading h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+#portfolio .portfolio-heading p {
+	margin-top: 20px;
+	line-height: 25px;
+	color: #8e8e8e;
+	margin-bottom: 50px;
+}
+
+#portfolio .portfolio-thumbnail {
+	position: relative;
+}
+
+#portfolio .portfolio-thumbnail img {
+	width: 100%;
+	height:auto;
+}
+
+#portfolio .portfolio-thumbnail .col-md-3 {
+	padding: 0;
+}
+
+#portfolio .portfolio-thumbnail .caption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(216, 9, 9, 0.7);
+	opacity: 0;
+	-moz-transition: opacity linear .3s;
+	-webkit-transition: opacity linear .3s;
+	-o-transition: opacity linear .3s;
+	transition: opacity linear .3s;
+}
+
+#portfolio .portfolio-thumbnail .item2:hover > .caption {
+	opacity: 1;
+}
+
+#portfolio .caption i {
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	color: #D80909;
+	background-color: #fff;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-top: -22px;
+	margin-left: -22px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+
+}
+
+#portfolio p{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #fff;
+	margin: 0; 
+	padding: 0; 
+	background-color: rgba(216, 9, 9, .9); 
+	position:relative; 
+	z-index: 2000; 
+	width: 100%;
+}
+
+/*Media*/
+@media screen and (min-width: 320px) and (max-width: 520px) {
+	#portfolio {
+		margin-top: 50px;
+	}
+
+	#portfolio .portfolio-heading h2 {
+		font-size: 27px;
+	}
+
+	#portfolio .portfolio-heading p {
+		font-size: 13px;
+	}
+}
+
+/*Media*/
+@media screen and (min-width: 521px) and (max-width: 980px) {
+	#portfolio {
+		margin-top: 50px;
+	}
+
+	#portfolio .portfolio-heading h2 {
+		font-size: 30px;
+	}
+
+}
+
+
+

@@ -1,9 +1,4 @@
-/*
-    Theme Name: Medicio
-    Theme URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
+
 
 /* ==== Google font ==== */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Roboto:400,500,700,900');
@@ -173,11 +168,13 @@ p.ultra {
 }
 
 a {
-    color: white;
+    color: grey;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
+
+
 
 a:hover,
 a:focus {
@@ -708,7 +705,7 @@ hr.bold {
 }
 
 .divider-short,.color-dark .divider-short,.bg-gray .divider-short {
-	background: #aaa;
+	background: #D80909;
 }
 
 .color-light .divider-short {
@@ -762,6 +759,7 @@ hr.bold {
 
 .intro-content {
 	background: url(../img/dummy/bg1.jpg) no-repeat top center;
+	background-size: cover;
 	padding:200px 0 60px;
 }
 .intro-content.intro-nobg {
@@ -769,6 +767,28 @@ hr.bold {
 	position:relative;
 	margin:0;
 	padding:140px 0 60px;
+}
+
+.intro-content2 {
+	background: url(../img/dummy/bg3.jpg) no-repeat top center;
+	background-size: cover;
+	padding:200px 0 60px;
+}
+.intro-content2.intro-nobg {
+	background:#fff;
+	position:relative;
+	margin:0;
+	padding:140px 0 60px;
+}
+
+.intro-content3 {
+	background: url(../img/dummy/bg4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 100%;
+	width:100%;
 }
 
 
@@ -783,6 +803,10 @@ hr.bold {
 }
 
 .intro-content h2 {
+	margin-bottom: 10px;
+}
+
+.intro-content2 h2 {
 	margin-bottom: 10px;
 }
 
@@ -807,8 +831,10 @@ ul.lead-list li span.fa {
 }
 
 ul.lead-list li span.list {
+	
+	font-size: 1.3em;
 	display: inline-block;
-	margin: 0 0 0 10px;
+	margin: 10px 0 0 10px;
 }
 
 p.lead-footer {
@@ -905,6 +931,21 @@ form.lead label,form.lead input {
 	font-weight:900;
 	line-height:1.1em;
 	margin-bottom: 20px;
+}
+
+
+
+.cta-text2 h1{
+	font-size: 2em;
+		font-weight:900;
+	line-height:1.1em;
+	margin-bottom: 20px;
+}
+
+.cta-text2 h3 {
+	color: white;
+	font-weight:900;
+	line-height:1.1em;
 }
 .cta-btn {
 	float:right;
@@ -1011,6 +1052,7 @@ Elements
 	float: left;
 }	
 
+
 .service-desc h5 {
 	margin-bottom: 10px;
 }
@@ -1042,8 +1084,8 @@ Elements
 .cbp .cbp-item {
     z-index: 2;
     display: block;
-    width: 240px; /* default width for blocks */
-    height: 250px; /* default height for blocks */
+     /*width: 240px; default width for blocks */
+    /* height: 250px; default height for blocks */
 }
 
 .cbp-filter-item {
@@ -1294,7 +1336,7 @@ Testimonial
 ============================ */
 
 footer {
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
 footer {
@@ -1314,17 +1356,19 @@ footer .widget h5 {
 
 
 .sub-footer {
-	margin-top: 30px;
     background-color: #f7f7f7;
-	border-top: 1px solid #ddd;
-	padding: 30px 0 10px;
+	border-top: 1px solid red;
+	margin-bottom: 0px;
 }
+
+
 
 .sub-footer a{
 	color: #444;
 }
 
 footer .sub-footer  p {
+	margin-top: 3%;
 	font-size: 14px;
 }
 
@@ -1403,8 +1447,9 @@ a.scrollup i:hover {
 
 /* --- Pricing box --- */
 .pricing-box {
-	padding-left:0;
-	padding-right:0;
+	padding-left:1%;
+	padding-right:1%;
+	margin-bottom: 5%;
 	
 }
 
@@ -1418,7 +1463,6 @@ a.scrollup i:hover {
 	-o-transition:all .25s ease-in-out;
 	transition:all .25s ease-in-out;
 	position:relative;
-	
 	border-radius: 4px;
 }
 .pricing-content.general {
@@ -1436,9 +1480,10 @@ a.scrollup i:hover {
 }
 
 .pricing-content h2 {
-	background-color:#666;
+	background-color:#D80909;
 	color:#FFF;
-	font-size:17px;
+	font-weight: 700;
+	font-size:2em;
 	text-align:center;
 	margin-bottom:0;
 	padding:30px 0;
@@ -1453,6 +1498,15 @@ a.scrollup i:hover {
 	margin-bottom:0;
 	font-weight:700;
 	padding:30px 0;
+}
+
+.ImgTruck{
+	background:#444;
+	padding:30px 0;
+}
+
+.ImgTruck img{
+	width: 50%;
 }
 
 .pricing-content h3 span {
@@ -1470,11 +1524,11 @@ a.scrollup i:hover {
 }
 
 .pricing-content li {
-	border-top:1px dotted #EFEFEF;
+	border-top:1px dotted #e5e2e2;
 	width:75%;
 	color:#333;
-	margin:0 auto;
-	padding:15px 0;
+	/*margin:0 auto;
+	padding:5px 0;*/
 }
 
 .pricing-content li:first-child {
@@ -1482,8 +1536,7 @@ a.scrollup i:hover {
 }
 
 .pricing-content li i {
-	float:right;
-
+/*float:right;*/
 }
 
 
@@ -1492,12 +1545,25 @@ a.scrollup i:hover {
 	color:#aaa;
 }
 
+.bb{
+			margin-top: 23.5%;
+		}
+.bb2{
+			margin-top: 33%;
+		}
+
 .price-bottom {
-	background:#f7f7f7;
+	background:#D80909;
 	text-align:center;
 	padding:25px 0;
 	border-radius: 0 0 4px 4px;
 }
+
+.price-bottom a{
+	background:#850000;
+	border: 1px solid #a30404;
+}
+
 
 
 .pricing-content p {
@@ -1683,9 +1749,9 @@ a.btn:focus{
 .btn-skin:focus,
 .btn-skin:active,
 .btn-skin.active {
-  color: #fff;
-  background-color: #666;
-  border-color: #666;
+  color: #D80909;
+  background-color: white;
+  border-color: #D80909;
 }
 
 
@@ -1973,6 +2039,9 @@ a.btn:focus{
 	.intro-content {
 		padding:250px 0 0;
 	}
+	.intro-content2 {
+		padding:250px 0 0;
+	}
 
 }
 
@@ -2085,6 +2154,9 @@ a.btn:focus{
 	}
 	
 	.intro-content {
+		padding:250px 0 0;
+	}
+	.intro-content2 {
 		padding:250px 0 0;
 	}
 }

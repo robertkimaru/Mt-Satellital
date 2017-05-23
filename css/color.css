@@ -1,0 +1,124 @@
+/*
+#1 color = #D80909;
+#2 color = #3fbbc0;
+*/
+
+a:hover,
+a:focus {
+    color: #D80909;
+}
+
+.circled {
+	background: #D80909;
+}
+
+.con1 > div, .con2 > div, .con3 > div { 
+	background-color: #D80909;
+}
+
+.scrollup:hover {
+	background: #D80909;
+}
+
+
+/* service */
+
+.service-icon span {
+	color: #D80909;
+}
+
+
+
+/* button */
+.btn-skin {
+  background-color: #D80909;
+  border-color: #D80909;
+}
+
+
+/* top */
+.top-area {
+	background: #D80909;
+}
+
+.top-area a:hover,
+a:focus {
+    color: black;
+}
+/* menu */
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: #D80909;
+}
+.navbar-custom.top-nav-collapse .nav li a:hover,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li.active a,.navbar-custom.top-nav-collapse .nav li.active a  {
+    color: #D80909;
+}
+
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #D80909;
+}
+
+
+.bg-skin {
+	background: #D80909;
+}
+
+.highlight-color {
+	background-color: #D80909;
+}
+.color {
+	color: #D80909;
+}
+
+/* pricing box  */
+.pricing-content.featured h2,.pricing-content.featured .price-bottom {
+	background-color:#3fbbc0;
+}
+.pricing-content.featured h3 {
+	background:#D80909;
+}
+
+
+
+/* team #D80909 */
+.cbp-l-grid-team-name {
+    color: #3fbbc0;
+}
+
+.cbp-l-filters-button .cbp-filter-counter {
+	background-color: #D80909;
+}
+
+.cbp-l-filters-alignLeft .cbp-filter-item-active {
+    /* @editable properties */
+    background-color: #D80909;
+    border:1px solid #D80909;
+}
+
+.cbp-l-filters-dropdownWrap {
+    background: #D80909;
+}
+.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
+    /* @editable properties */
+    background-color: #D80909;
+    border-color: #D80909;
+}
+.cbp-l-caption-buttonLeft,
+.cbp-l-caption-buttonRight {
+    /* @editable properties */
+    background-color: #D80909;
+}
+
+.cbp-l-caption-buttonLeft:hover,
+.cbp-l-caption-buttonRight:hover {
+    /* @editable properties */
+    background-color: #3fbbc0;
+}
+
+.form-control:focus {
+  border-color: #3fbbc0;
+}
